@@ -1,0 +1,118 @@
+@media screen and (max-width: 992px) {
+    body {
+        max-width: 775px; 
+        margin: auto;
+        }
+
+.contenu_principal{
+    margin: auto;
+}
+
+.bannière{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+
+
+.search_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.filtres_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.bloc_populaires {
+    margin-top: 30px;
+}
+
+.titre_hebergement {
+    margin-left: 100px;
+}
+
+.bloc_hebergement_populaire {
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hub_marseille {
+background: none;
+margin-left: 140px;
+}
+
+.titre_hebergement h2 {
+    margin-left: -100px;
+}
+
+.responsivlast{
+margin-left: 98px;
+margin-right: 94px;
+display: flex;
+flex-direction: row;
+}
+
+.actmar h2{
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.afficher h3{
+margin-right: 16px;
+}
+
+
+.act_container {
+    margin: auto;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.port_container {
+    margin-left: 44px;
+}
+.fort_iles{
+    margin-left: 54px;
+}
+
+.footer {
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.apropos {
+    margin-left: 60px;
+}
+
+.Assistance {
+margin-right: 54px;
+}
+
+}

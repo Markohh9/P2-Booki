@@ -1,0 +1,309 @@
+@media screen and (max-width: 768px)
+{
+    body{
+        width: 377px;
+        margin: auto;
+    }
+
+    .contenu_principal{
+        margin: 0;
+    }
+
+    /* NAV BAR */
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin-left: 60px;
+        
+    }
+
+    nav ul{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+    }
+
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+    nav li a{
+        display: block;
+        padding: 30px 0 15px 0;
+    }
+
+    nav li a:hover{
+        border-top: none;
+        border-bottom: #0065fc 3px solid;
+    }
+
+    /* BANNIERE DE RECHERCHE, FILTRES ET RESULTATS */
+
+    .bannière{
+        margin: 0 10px 10px 10px;
+    }
+
+    .bannière h3 {
+        justify-content: center;
+        width: 100%;
+    }
+    
+    /* FORMULAIRE DE RECHERCHE */
+    .search_center {
+        margin-left: 8px;
+    }
+
+    .search_input{
+        width: 71%;
+    }
+
+    .rechercher span{
+        display: none;
+    }
+
+    .rechercher{
+        display: none;
+    }
+
+    .iconeloupe{
+        width: 18%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0065fc;
+        border-radius: 16px;
+        border: none;
+        height: 100%;
+        margin-right: 30px;
+        
+    }
+
+    .iconeloupe i{
+        width: auto;
+        color: white;
+        background-color: #0065fc;
+        font-size: 18px;
+    }
+
+        /* FILTRES */
+
+    .filtres_container{
+        flex-wrap: wrap;
+        justify-content: left;
+        margin-left: 8px;
+    }
+
+    /* RESULTAT DE RECHERCHE */
+
+    .infos{
+        margin: 20px 0 0 8px;
+    }
+
+    /* MOST POPULAR */
+
+    .bloc_hebergement_populaire{
+        width: 375px;
+        align-items: center;
+        border-radius: 0;
+    }
+
+    .bloc_populaires {
+        margin-right: -8px;
+        border-radius: 0px;
+    }
+    
+
+    /* hub MARSEILLE */
+
+    .hub_marseille {
+        margin-left: -34px;
+    }
+
+
+    .bloc_hebergement_populaire{
+        width: 100%;
+        padding: 0 20px 20px 20px;
+        background-color: transparent;
+    }
+
+    .cartes_hebergement{
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+
+    .cartes_hebergement img{
+        width: 98%;
+    }
+
+    .titre_hebergement{
+        margin: 0;
+    }
+
+    .titre_hebergement h2 {
+        margin-top: 0px;
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
+
+    /* ACTIVITIES MARSEILLE */
+
+.act_container {
+    margin-left: -30px;
+}
+
+.actmar h2{
+    margin-left: 60px;
+    margin-top: 5px;
+}
+    .port_container h3 {
+        width: auto;
+    }
+
+    .parc h3  {
+        width: auto;
+    }
+    .activités{
+        width: 100%;
+        justify-content: left;
+        margin: 20px 0 0 10px;
+    }
+
+    .activités h2{
+        font-size: 16px;
+        margin: 0;
+        padding: 22px 0 0 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .activités h3{
+        font-size: 16px;
+        margin: 0;
+        padding: 22px 0 0 15px;
+    }
+
+    .afficher h3{
+        margin-right: 200px;
+    }
+
+    /* CARTES XL */
+    .port_container{
+        width: 334px;
+        height: 190px;
+        margin-left: 65px;
+    }
+
+    .port_container img{
+        width: 100%;
+        height: 70%;
+    }
+
+    .parc{
+        width: 334px;
+        height: 190px;
+        margin-left: 85px;
+        margin-top: -40px;
+    }
+
+    .parc img{
+        width: 100%;
+        height: 70%;
+    }
+
+    /* SMALLS CARDS */
+
+    .fort_iles {
+        margin-left: 65px;
+        margin-top: -22px;
+    }
+
+    .fort{
+        width: 334px;
+        height: 190px;
+        margin-bottom: 20px;
+    }
+
+    .fort img{
+        width: 100%;
+        height: 70%;
+    }
+
+    .iles{
+        width: 334px;
+        height: 190px;
+        margin-bottom: 15px;
+    }
+
+    .iles img{
+        width: 100%;
+        height: 70%;
+    }
+
+    .parc{
+        width: 334px;
+        height: 190px;
+    }
+
+    .parc img{
+        width: 100%;
+        height: 70%;
+    }
+
+    .dame{
+        width: 334px;
+        height: 190px;
+    }
+
+    .dame img{
+        width: 100%;
+        height: 70%;
+    }
+
+    .champ img{
+        width: 334px;
+        height: 135px;
+    }
+    .dameparc {
+    margin-left: 65px;
+    margin-top: -22px;
+}
+
+    .champ {
+    margin-top: -20px;
+}
+
+    /* FOOTER */
+
+    .About{
+        flex-direction: column;
+        padding-left: 30px;
+        gap: 10px;
+        padding-bottom: 30px;
+    }
+
+    .about_link{
+        padding-bottom: 13px;
+    }
+
+    .footer{
+        margin-right: -28px;
+        margin-top: -40px;
+        margin-bottom: -40px;
+    }
+
+    .Assistance { 
+        margin-right: 14px;
+    }
+
+}
